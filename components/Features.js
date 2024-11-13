@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Features() {
   return (
     <section id="features" className="py-12">
@@ -23,7 +25,7 @@ export default function Features() {
               Next.js 11
             </h1>
             <div className="h-auto">
-              <a
+              <Link
                 href="https://unsplash.com/photos/ymVslcVAzg8"
                 rel="noreferrer"
                 target="_blank"
@@ -33,9 +35,9 @@ export default function Features() {
                   src="/images/placeholder-2.webp"
                   alt="Placeholder for Next.js"
                 />
-              </a>
+              </Link>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <span className="font-semibold">Conformance</span>: A system
@@ -60,14 +62,14 @@ export default function Features() {
                   updates
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="mb-10 space-y-6">
             <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
               TailwindCSS JIT
             </h1>
             <div className="h-auto">
-              <a
+              <Link
                 href="https://unsplash.com/photos/qOEiV-8w-MQ"
                 rel="noreferrer"
                 target="_blank"
@@ -77,9 +79,9 @@ export default function Features() {
                   src="/images/placeholder-3.webp"
                   alt="Placeholder for TailwindCSS JIT"
                 />
-              </a>
+              </Link>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
                   <span className="font-semibold">Just-in-Time Mode</span>: A
@@ -107,14 +109,14 @@ export default function Features() {
                   </span>
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="mb-10 space-y-6">
             <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
               Dark Mode
             </h1>
             <div className="h-auto">
-              <a
+              <Link
                 href="https://unsplash.com/photos/p7o0qrl8hv8"
                 rel="noreferrer"
                 target="_blank"
@@ -124,19 +126,19 @@ export default function Features() {
                   src="/images/placeholder-4.webp"
                   alt="Placeholder for Dark Mode"
                 />
-              </a>
+              </Link>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
-                  <a
+                  <Link
                     href="https://github.com/pacocoursey/next-themes"
                     target="_blank"
                     rel="noreferrer"
                     className="font-semibold"
                   >
                     next-themes
-                  </a>
+                  </Link>
                   : An abstraction for themes in your Next.js app.
                 </li>
                 <li className="mb-2">
@@ -154,14 +156,14 @@ export default function Features() {
                   hook
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
           <div className="mb-10 space-y-6">
             <h1 className="text-xl font-bold text-center text-rose-600 dark:text-rose-300 md:text-2xl sm:text-left">
               Next-SEO
             </h1>
             <div className="h-auto">
-              <a
+              <Link
                 href="https://unsplash.com/photos/_CrD1UmfWqc"
                 rel="noreferrer"
                 target="_blank"
@@ -171,19 +173,19 @@ export default function Features() {
                   src="/images/placeholder-5.webp"
                   alt="Placeholder for Next-SEO"
                 />
-              </a>
+              </Link>
             </div>
-            <p className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="mx-2 font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul className="mr-0 md:mr-10">
                 <li className="mb-2">
-                  <a
+                  <Link
                     href="https://github.com/garmeeh/next-seo"
                     target="_blank"
                     rel="noreferrer"
                     className="font-semibold"
                   >
                     next-seo
-                  </a>
+                  </Link>
                   : A plugin that makes managing your SEO easier in Next.js
                   projects.
                 </li>
@@ -203,7 +205,7 @@ export default function Features() {
                   should at least have access to a description & a title.
                 </li>
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>

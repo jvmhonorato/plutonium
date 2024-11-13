@@ -17,9 +17,9 @@ export default function Header() {
       <div className="flex flex-col flex-wrap max-w-5xl p-2.5 mx-auto md:flex-row">
         <div className="flex flex-row items-center justify-between p-2 md:p-1">
           <Link href="/">
-            <a className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0">
+            <p className="mb-4 text-2xl font-medium text-black transition duration-300 hover:text-gray-300 dark:text-gray-300 dark:hover:text-white md:mb-0">
               PLUTONIUM
-            </a>
+            </p>
           </Link>
           <button
             className="px-3 py-1 pb-4 ml-auto text-black outline-none dark:text-gray-300 md:hidden"
@@ -51,22 +51,22 @@ export default function Header() {
           }
         >
           <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
-            <a
+            <Link
               href="/#features"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Features
-            </a>
-            <a
+            </Link>
+            <Link
               href="/#pricing"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
               Pricing
-            </a>
+            </Link>
             <Link href="/404">
-              <a className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+              <p className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Demo
-              </a>
+              </p>
             </Link>
           </div>
           <button
@@ -101,22 +101,22 @@ export default function Header() {
               </svg>
             )}
           </button>
-          <a
-            href="#"
+          <Link
+            href="/"
             rel="noopener noreferrer"
             target="_blank"
             className="invisible dark:hover:border-gray-500 hover:shadow-md transition duration-300 mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
           >
             Sign in
-          </a>
-          <a
-            href="#"
+          </Link>
+          <Link
+            href="/"
             rel="noopener noreferrer"
             target="_blank"
             className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
           >
             Sign up
-          </a>
+          </Link>
         </div>
       </div>
     </header>

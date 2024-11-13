@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Feature = () => {
   return (
     <li className="flex mb-1 space-x-3">
@@ -53,23 +55,23 @@ export default function Pricing() {
                 $10
               </span>
               <span className="text-base font-medium text-gray-500">/mo</span>
-              <a
+              <Link
                 href="#"
                 className="block w-full py-2 mt-8 text-sm font-semibold text-center text-gray-300 transition duration-300 bg-black rounded-md hover:bg-gray-800 dark:hover:bg-gray-600 dark:text-gray-200 dark:bg-gray-800"
               >
                 Buy Hobby
-              </a>
+              </Link>
             </div>
             <div className="w-full border border-gray-300 dark:border-gray-500" />
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
               What&apos;s included
             </h1>
-            <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
                 <Feature />
                 <Feature />
               </ul>
-            </p>
+            </div>
           </div>
           <div className="p-5 mb-10 space-y-6 border-2 border-rose-500 dark:border-rose-300 rounded-2xl">
             <h1 className="text-xl font-bold text-center text-teal-600 dark:text-teal-300 md:text-2xl sm:text-left">
@@ -83,25 +85,25 @@ export default function Pricing() {
                 $20
               </span>
               <span className="text-base font-medium text-gray-500">/mo</span>
-              <a
+              <Link
                 href="#"
                 className="block w-full py-2 mt-8 text-sm font-semibold text-center text-gray-300 transition duration-300 bg-black rounded-md hover:bg-gray-800 dark:hover:bg-gray-600 dark:text-gray-200 dark:bg-gray-800"
               >
                 Buy Freelancer
-              </a>
+              </Link>
             </div>
             <div className="w-full border border-gray-300 dark:border-gray-500" />
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
               What&apos;s included
             </h1>
-            <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
                 <Feature />
                 <Feature />
                 <Feature />
                 <Feature />
               </ul>
-            </p>
+            </div>
           </div>
           <div className="p-5 mt-5 mb-10 space-y-6 border shadow-md rounded-2xl">
             <h1 className="text-xl font-bold text-center text-teal-600 dark:text-teal-300 md:text-2xl sm:text-left">
@@ -115,18 +117,18 @@ export default function Pricing() {
                 $30
               </span>
               <span className="text-base font-medium text-gray-500">/mo</span>
-              <a
+              <Link
                 href="#"
                 className="block w-full py-2 mt-8 text-sm font-semibold text-center text-gray-300 transition duration-300 bg-black rounded-md hover:bg-gray-800 dark:hover:bg-gray-600 dark:text-gray-200 dark:bg-gray-800"
               >
                 Buy Enterprise
-              </a>
+              </Link>
             </div>
             <div className="w-full border border-gray-300 dark:border-gray-500" />
             <h1 className="text-sm font-semibold text-gray-500 uppercase">
               What&apos;s included
             </h1>
-            <p className="font-normal text-gray-500 dark:text-gray-400 text-md">
+            <div className="font-normal text-gray-500 dark:text-gray-400 text-md">
               <ul>
                 <Feature />
                 <Feature />
@@ -135,7 +137,7 @@ export default function Pricing() {
                 <Feature />
                 <Feature />
               </ul>
-            </p>
+            </div>
           </div>
         </div>
       </div>

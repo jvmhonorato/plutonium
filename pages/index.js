@@ -51,28 +51,28 @@ export default function Home() {
               optimizations, and clean, organized, easy-to-edit code.
             </p>
             <div className="mt-6 text-center md:ml-6">
-              <a
+              <Link
                 className="inline-flex items-center px-5 py-3 text-sm font-medium text-gray-300 transition duration-300 bg-black rounded hover:bg-gray-800 dark:hover:bg-gray-200 dark:text-gray-700 dark:bg-white"
                 aria-label="learn more"
                 rel="noreferrer"
                 href="https://github.com/minor/plutonium/"
               >
                 <span className="flex justify-center">GitHub Link</span>
-              </a>
+              </Link>
               <br className="sm:hidden" />
               <Link href="404">
-                <a
+                <p
                   className="inline-flex items-center px-5 py-3 mt-2 ml-0 text-sm font-medium text-gray-700 transition duration-300 border rounded shadow dark:hover:border-gray-500 hover:shadow-md md:ml-2 dark:text-gray-300"
                   aria-label="learn more"
                 >
                   <span className="flex justify-center">See a Demo</span>
-                </a>
+                </p>
               </Link>
             </div>
           </div>
           <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
             <div className="relative z-10">
-              <a
+              <Link
                 target="_blank"
                 rel="noreferrer"
                 href="https://unsplash.com/photos/e9TrFZZ72DQ"
@@ -82,17 +82,17 @@ export default function Home() {
                   src="/images/placeholder.webp"
                   alt="Placeholder Image"
                 />
-              </a>
+              </Link>
             </div>
             <p className="z-10 my-8 text-sm font-medium text-gray-500">
               Maybe we&apos;re bringing brightness too?
             </p>
           </div>
         </div>
-        {/* <div
+        <div
           style={{ backgroundImage: "url(/images/blur.png)" }}
           className="absolute inset-0 w-full h-full bg-bottom bg-no-repeat bg-cover -z-1"
-        /> */}
+        />
       </section>
       <Sponsors />
       <Features />

@@ -25,9 +25,9 @@ export default function Error() {
             page. If you&apos;re here from clicking demo: it was on purpose!
           </p>
           <Link href="/">
-            <a className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
+            <p className="px-4 py-2.5 text-black dark:text-white border dark:hover:bg-white dark:hover:text-black rounded-lg shadow transition duration-300 hover:shadow-md">
               Return Home
-            </a>
+            </p>
           </Link>
         </div>
       </div>

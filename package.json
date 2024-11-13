@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "glob-parent": "^5.1.2",
-    "next": "^11.0.0",
+    "next": "^15.0.3",
     "next-seo": "^4.24.0",
     "next-themes": "^0.0.14",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.4",
