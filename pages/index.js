@@ -42,9 +42,10 @@ export default function Home() {
               Não seja vítima de criminosos digitais
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500 mr-2">
-               Saiba quais são os golpes mais usados no 
+               Saiba quais são os golpes mais usados 
               </span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
+              <br/>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
                 Brasil 2025
               </span>
             </h1>
