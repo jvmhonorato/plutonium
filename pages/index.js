@@ -39,16 +39,17 @@ export default function Home() {
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
-              Bringing darkness
+              Não seja vítima de criminosos digitais
               <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500 mr-2">
+               Saiba quais são os golpes mais usados no 
+              </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
-                straight to the web.
+                Brasil 2025
               </span>
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
-              Plutonium is a Next.js template styled with TailwindCSS. It boasts
-              built-in dark-mode support, configured Next-SEO for the best SEO
-              optimizations, and clean, organized, easy-to-edit code.
+            Após o grande vazamento de dados em massa de 2021, mais de 1/3 dos brasileiros sofreram algum tipo de golpe digital nos ultimos anos. Hoje, você descobrirá se seus dados foram expostos, se seu celular foi clonado ou se está sendo monitorado.
             </p>
             <div className="mt-6 text-center md:ml-6">
               <Link
