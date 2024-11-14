@@ -107,22 +107,7 @@ export default function Header() {
               </svg>
             )}
           </button>
-          <Link
-            href="/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible dark:hover:border-gray-500 hover:shadow-md transition duration-300 mr-4 text-black border px-3 py-1.5 rounded dark:text-gray-300 md:visible"
-          >
-            Sign in
-          </Link>
-          <Link
-            href="/"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="invisible md:visible px-3 py-1.5 transition-colors hover:bg-gray-800 dark:hover:bg-gray-200 text-white dark:text-black bg-black dark:bg-white rounded"
-          >
-            Sign up
-          </Link>
+          
         </div>
       </div>
     </header>

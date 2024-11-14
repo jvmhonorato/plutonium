@@ -14,19 +14,19 @@ export default function Home() {
   return (
     <div className="bg-white dark:bg-black">
       <NextSeo
-        title="Plutonium"
+        title="Manual Antigolpe Brasil"
         description="Plutonium – where darkness meets the web."
         canonical="https://plutonium.vercel.app/"
         openGraph={{
           url: "https://plutonium.vercel.app/",
-          title: "Plutonium",
+          title: "Manual Antigolpe Brasil",
           description: "Plutonium – where darkness meets the web.",
           images: [
             {
               url: "blob:https://og-playground.vercel.app/8baff750-c782-4a04-b198-7ee3dd1e1974",
             },
           ],
-          site_name: "Plutonium",
+          site_name: "Manual Antigolpe Brasil",
         }}
         twitter={{
           handle: "@saurishhh",
