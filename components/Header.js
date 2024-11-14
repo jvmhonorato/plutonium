@@ -51,6 +51,11 @@ export default function Header() {
           }
         >
           <div className="flex flex-wrap items-center justify-center pt-1 pl-2 ml-1 space-x-8 md:space-x-16 md:mx-auto md:pl-14">
+          <Link href="/#vsl">
+              <p className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
+                Player
+              </p>
+            </Link>
             <Link
               href="/#features"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
@@ -61,8 +66,9 @@ export default function Header() {
               href="/#pricing"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
-              Pricing
+              Preço
             </Link>
+           
             <Link href="/404">
               <p className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
                 Demo

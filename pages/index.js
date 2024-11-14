@@ -8,6 +8,7 @@ import Features from "../components/Features";
 import Pricing from "../components/Pricing";
 import SocialProof from "../components/SocialProof";
 import VideoPlayer from "../components/VideoPlayer";
+import Vsl from "../components/Vsl";
 
 export default function Home() {
   return (
@@ -44,11 +45,11 @@ export default function Home() {
             Você realmente sabe onde estão seus dados, senhas e informações pessoais?
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500 mr-2">
-               Saiba quais são os golpes mais usados 
+               Saiba quais são os golpes digitais mais usados no
               </span>
-              <br/>
-              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500">
-                Brasil 2025
+              
+              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 dark:from-green-500 dark:via-yellow-400 dark:to-blue-500">
+                Brasil 
               </span>
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
@@ -75,25 +76,10 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
-            <div className="relative z-10">
-              {/* <Link
-                target="_blank"
-                rel="noreferrer"
-                href="https://unsplash.com/photos/e9TrFZZ72DQ"
-              >
-                <img
-                  className="transition duration-700 shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 hover:transform hover:scale-105"
-                  src="/images/placeholder.webp"
-                  alt="Placeholder Image"
-                />
-              </Link> */}
-              <VideoPlayer/>
-            </div>
-            <p className="z-10 my-8 text-sm font-medium text-gray-500">
-              Maybe we&apos;re bringing brightness too?
-            </p>
-          </div>
+          
+            
+              <Vsl/>
+          
         </div>
         <div
           style={{ backgroundImage: "url(/images/blur.png)" }}
