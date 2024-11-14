@@ -23,11 +23,11 @@ const SocialProof = () => {
   ];
 
   return (
-    <section id="socialproof" className="py-12 bg-gray-100 text-center">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-8">O que dizem nossos clientes</h2>
+    <section id="socialproof" className="py-12  text-center">
+      <h2 className="text-3xl font-semibold  mb-8">O que dizem nossos clientes</h2>
       <div className="flex justify-center gap-8">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-lg w-64">
+          <div key={index} className=" p-6 rounded-lg shadow-lg w-64">
             <div className="mb-4 w-20 h-20 mx-auto rounded-full overflow-hidden">
               <Image
                 src={testimonial.imageUrl}

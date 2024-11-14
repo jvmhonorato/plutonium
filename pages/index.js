@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import Sponsors from "../components/Sponsors";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
+import SocialProof from "../components/SocialProof";
 
 export default function Home() {
   return (
@@ -50,7 +51,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
-            Após o grande vazamento de dados em massa de 2021, mais de 1/3 dos brasileiros sofreram algum tipo de golpe digital nos ultimos anos. Hoje, você descobrirá se seus dados foram expostos, se seu celular foi clonado ou se está sendo monitorado.
+            Após o grande <strong>vazamento de dados</strong> em massa de 2021, mais de <strong>1/3 dos brasileiros</strong> sofreram algum tipo de <strong>golpe digital</strong> nos ultimos anos. Hoje, você descobrirá se seus dados foram expostos, se seu celular foi clonado ou se está sendo <strong>monitorado</strong>.
             </p>
             <div className="mt-6 text-center md:ml-6">
               <Link
@@ -98,6 +99,7 @@ export default function Home() {
       </section>
       <Sponsors />
       <Features />
+      <SocialProof/>
       <Pricing />
       <Footer />
     </div>
