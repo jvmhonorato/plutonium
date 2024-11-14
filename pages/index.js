@@ -7,6 +7,7 @@ import Sponsors from "../components/Sponsors";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
 import SocialProof from "../components/SocialProof";
+import VideoPlayer from "../components/VideoPlayer";
 
 export default function Home() {
   return (
@@ -52,7 +53,7 @@ export default function Home() {
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
             {/* Após o grande <strong>vazamento de dados</strong> em massa de 2021, mais de <strong>1/3 dos brasileiros</strong> sofreram algum tipo de <strong>golpe digital</strong> nos ultimos anos. Hoje, você descobrirá se seus dados foram expostos, se seu celular foi clonado ou se está sendo <strong>monitorado</strong>. */}
-            Imagine se seus dados mais privados – como senhas, números de cartão de crédito e conversas pessoais – já tivessem sido comprometidos… sem você perceber. Será que seu celular já foi clonado? Seus dados estão circulando na dark web? O que você não sabe pode ser muito mais perigoso do que imagina. Descubra agora o que pode estar acontecendo com suas informações e o que você pode fazer para protegê-las antes que seja tarde.
+            Imagine se <strong>seus dados mais privados</strong> – como senhas, números de cartão de crédito e conversas pessoais – já tivessem sido <strong>comprometidos</strong>… sem você perceber. <strong>Será que seu celular já foi clonado? Seus dados estão circulando na dark web?</strong> O que você não sabe pode ser muito mais perigoso do que imagina.<strong>Descubra agora o que pode estar acontecendo com suas informações e o que você pode fazer para protegê-las antes que seja tarde.</strong> 
             </p>
             <div className="mt-6 text-center md:ml-6">
               <Link
@@ -76,7 +77,7 @@ export default function Home() {
           </div>
           <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
             <div className="relative z-10">
-              <Link
+              {/* <Link
                 target="_blank"
                 rel="noreferrer"
                 href="https://unsplash.com/photos/e9TrFZZ72DQ"
@@ -86,7 +87,8 @@ export default function Home() {
                   src="/images/placeholder.webp"
                   alt="Placeholder Image"
                 />
-              </Link>
+              </Link> */}
+              <VideoPlayer/>
             </div>
             <p className="z-10 my-8 text-sm font-medium text-gray-500">
               Maybe we&apos;re bringing brightness too?

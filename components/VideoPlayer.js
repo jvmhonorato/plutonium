@@ -36,7 +36,7 @@ const VideoPlayer = () => {
 
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <video ref={videoRef} width="640" controls>
+      <video ref={videoRef} width="940" controls>
         <source src="caminho-do-seu-video.mp4" type="video/mp4" />
         Seu navegador não suporta a reprodução de vídeo.
       </video>
