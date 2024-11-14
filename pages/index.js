@@ -40,7 +40,7 @@ export default function Home() {
         <div className="px-4 pt-10 mx-auto max-w-7xl md:pt-16">
           <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
-              Não seja vítima de criminosos digitais
+            Você realmente sabe onde estão seus dados, senhas e informações pessoais?
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500 mr-2">
                Saiba quais são os golpes mais usados 
@@ -51,7 +51,8 @@ export default function Home() {
               </span>
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
-            Após o grande <strong>vazamento de dados</strong> em massa de 2021, mais de <strong>1/3 dos brasileiros</strong> sofreram algum tipo de <strong>golpe digital</strong> nos ultimos anos. Hoje, você descobrirá se seus dados foram expostos, se seu celular foi clonado ou se está sendo <strong>monitorado</strong>.
+            {/* Após o grande <strong>vazamento de dados</strong> em massa de 2021, mais de <strong>1/3 dos brasileiros</strong> sofreram algum tipo de <strong>golpe digital</strong> nos ultimos anos. Hoje, você descobrirá se seus dados foram expostos, se seu celular foi clonado ou se está sendo <strong>monitorado</strong>. */}
+            Imagine se seus dados mais privados – como senhas, números de cartão de crédito e conversas pessoais – já tivessem sido comprometidos… sem você perceber. Será que seu celular já foi clonado? Seus dados estão circulando na dark web? O que você não sabe pode ser muito mais perigoso do que imagina. Descubra agora o que pode estar acontecendo com suas informações e o que você pode fazer para protegê-las antes que seja tarde.
             </p>
             <div className="mt-6 text-center md:ml-6">
               <Link
