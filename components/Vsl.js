@@ -9,7 +9,7 @@ const Vsl = () =>{
     <>
     <section id="vsl" className="py-12">
      <div className="relative w-full py-10 mx-auto text-center md:py-32 md:my-12 md:w-10/12">
-     <h2>Toque o player abaixo</h2>
+     <h2 className='font-semibold text-base md:text-lg lg:text-xl'>Toque o player abaixo</h2>
             <div className="relative z-10">
       
               <VideoPlayer/>
@@ -19,6 +19,7 @@ const Vsl = () =>{
             </p>
             
       </div>
+      
     </section>
     </>
   )

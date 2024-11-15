@@ -57,10 +57,16 @@ export default function Header() {
               </p>
             </Link>
             <Link
+              href="/#sponsors"
+              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
+            >
+              Sponsors
+            </Link>
+            <Link
               href="/#features"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
             >
-              Features
+              Recursos
             </Link>
             <Link
               href="/#pricing"
