@@ -56,12 +56,7 @@ export default function Header() {
                 Player
               </p>
             </Link>
-            <Link
-              href="/#sponsors"
-              className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
-            >
-              Sponsors
-            </Link>
+          
             <Link
               href="/#features"
               className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300"
@@ -75,11 +70,7 @@ export default function Header() {
               Preço
             </Link>
            
-            <Link href="/404">
-              <p className="text-black transition duration-300 dark:text-gray-300 hover:text-gray-300">
-                Demo
-              </p>
-            </Link>
+            
           </div>
           <button
             aria-label="Toggle Dark Mode"

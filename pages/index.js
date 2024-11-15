@@ -60,7 +60,7 @@ export default function Home() {
       <Btn />
       <Vsl />
 
-      <Sponsors />
+     
 
       <Features />
       <SocialProof />
