@@ -17,6 +17,7 @@ const Vsl = () =>{
             <p className="z-10 my-8 text-sm font-medium text-gray-500">
               Sem tempo ou paciência pra video? Role pra baixo.
             </p>
+            
       </div>
     </section>
     </>
