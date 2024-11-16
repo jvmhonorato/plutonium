@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React, { useState, useRef, useEffect } from 'react';
 
 const VideoPlayer = () => {
@@ -50,7 +51,7 @@ const VideoPlayer = () => {
       
 
       {showButton && (
-        <button className="mt-4">Clique aqui</button>
+        <Link href="/#pricing" className="mt-4">Clique aqui</Link>
       )}
     </div>
     </div>
