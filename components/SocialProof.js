@@ -6,19 +6,19 @@ const SocialProof = () => {
   // Dados dos depoimentos (foto, nome, depoimento)
   const testimonials = [
     {
-      name: "João Silva",
+      name: "Renata Garcia",
       imageUrl: "/images/joao.jpg", // Coloque a URL da imagem que você deseja utilizar
-      testimonial: "O produto é incrível! Minha produtividade aumentou muito desde que comecei a usar.",
+      testimonial: "Comprei pra minha mãe, que é meio enrolada com tecnologia, achando que seria só pra ela. Mas, pra minha surpresa, até eu aprendi coisas que nem imaginava! Valeu muito o investimento, recomendo demais.",
     },
     {
-      name: "Maria Oliveira",
+      name: "Sara Oliveira",
       imageUrl: "/images/maria.jpg", // Coloque a URL da imagem que você deseja utilizar
-      testimonial: "Excelente atendimento e qualidade. Com certeza vou continuar utilizando!",
+      testimonial: "Comprei pra tirar a dúvida se meu marido tava me monitorando de alguma forma, e já vi que não. Mas confesso que, depois de aprender tanta coisa, até deu vontade de usar o que aprendi pra monitorar ele, haha... brincadeira! Valeu muito a pena.",
     },
     {
       name: "Carlos Souza",
       imageUrl: "/images/carlos.jpg", // Coloque a URL da imagem que você deseja utilizar
-      testimonial: "Muito satisfeito com a compra. A experiência foi ótima do começo ao fim.",
+      testimonial: "Comprei pra dar uma olhada no meu, mas sinceramente, agora vou pegar o celular do meu avô pra conferir se tá tudo certo. Vai que minhas tias sanguessugas instalaram alguma coisa lá, né? Valeu demais, super útil!",
     },
   ];
 

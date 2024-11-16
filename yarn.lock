@@ -1991,6 +1991,11 @@ react-dom@*, react-dom@^18.2.0, "react-dom@^18.2.0 || 19.0.0-rc-66855b96-2024110
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-facebook-pixel@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/react-facebook-pixel/-/react-facebook-pixel-1.0.4.tgz"
+  integrity sha512-givZY8MS0v/mdbRzvcvouBo/j0TtDiu/93f4gIjJXwDDgwlf6bYUiQvb2qcqjluOOD/hIKUQHNYLNsSOnoEklg==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
