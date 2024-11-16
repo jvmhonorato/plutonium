@@ -18,7 +18,7 @@ const Vsl = () =>{
               
             </div>
             <p className="z-10 my-8 text-sm font-medium text-gray-500">
-              Sem tempo ou paciência pra video? Role pra baixo.
+              Sem tempo ou paciência pra video? Role pra <span className='font-bold text-lg animate-bounce'> BAIXO </span>.
             </p>
             
       </div>
