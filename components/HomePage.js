@@ -5,15 +5,15 @@ function HomePage () {
     <div>
               <div className="w-full pb-5 mx-auto text-center md:w-11/12">
             <h1 className="mb-3 text-5xl font-bold tracking-tight text-gray-900 dark:text-gray-100 md:text-6xl">
-            Descubra se você está sendo monitorado! Aprenda agora como identificar sinais de espionagem digital e proteger-se de golpistas na internet. 
+            
               <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 dark:from-pink-500 dark:via-purple-400 dark:to-indigo-500 mr-2">
-               Saiba quais são os golpes digitais mais usados no
+              Descubra se você está sendo monitorado!  Aprenda agora como identificar sinais de espionagem digital e proteger-se de golpistas na internet. 
               </span>
               
-              <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 dark:from-green-500 dark:via-yellow-400 dark:to-blue-500">
+              {/* <span className="text-transparent bg-clip-text bg-gradient-to-r dark:bg-gradient-to-r from-green-500 via-yellow-500 to-blue-500 dark:from-green-500 dark:via-yellow-400 dark:to-blue-500">
                 Brasil 
-              </span>
+              </span> */}
             </h1>
             <p className="max-w-xl pt-5 mx-auto text-lg text-gray-600 dark:text-gray-400 md:text-lg">
             

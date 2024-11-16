@@ -14,7 +14,7 @@ import HomePage from "../components/HomePage";
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white  dark:bg-black">
       <NextSeo
         title="Manual Antigolpe Brasil"
         description="Plutonium – where darkness meets the web."
@@ -58,14 +58,18 @@ export default function Home() {
 
       </div>
       <Btn />
+      
       <Vsl />
-
+    
+   
      
 
       <Features />
       <SocialProof />
       <Pricing />
+      
       <Footer />
+      
     </div>
   );
 }
